@@ -10,7 +10,7 @@ public class _05_ChangeTownNamesCasing {
 
         Properties properties = new Properties();
         properties.setProperty("user","root");
-        properties.setProperty("password","6415626");
+        properties.setProperty("password","");
 
         Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/minions_db",properties);
 
